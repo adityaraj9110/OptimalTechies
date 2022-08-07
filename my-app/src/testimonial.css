@@ -1,0 +1,306 @@
+/* // .app__testimonial {
+//     flex: 1;
+//     width: 100%;
+//     // margin-top: 2rem;
+//     // border: 2px solid red;
+//     flex-direction: column;
+//   }
+//   .p-text{
+//     font-weight: 500;
+//   }
+//   .app__testimonial-item {
+//     width: 60%;
+//     min-height: 320px;
+//     background-color: var(--white-color);
+//     display: flex;
+//     margin: 0 auto;
+//     flex-direction: row;
+//     padding: 2rem;
+//     border-radius: 15px;
+//     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  
+//     transition: all 0.3s ease-in-out;
+  
+//     img {
+//       width: 100px;
+//       height: 100px;
+//       border-radius: 70%;
+//       object-fit: cover;
+//     }
+  
+//     @media screen and (min-width: 2000px) {
+//       min-height: 450px;
+  
+//       img {
+//         width: 150px;
+//         height: 150px;
+//       }
+//     }
+  
+//     @media screen and (max-width: 850px) {
+//       width: 100%;
+//     }
+  
+//     @media screen and (max-width: 600px) {
+//       flex-direction: column;
+//     }
+//   }
+  
+//   .app__testimonial-content {
+//     flex: 1;
+//     height: 100%;
+//     padding: 0 2rem;
+//     text-align: left;
+  
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     align-items: flex-start;
+  
+//     p {
+//       font-size: 1.25rem;
+//       line-height: 2rem;
+//       color: var(--black-color);
+//       font-family: var(--font-base);
+  
+//       @media screen and (min-width: 2000px) {
+//         font-size: 2rem;
+//         line-height: 3.5rem;
+//       }
+//     }
+  
+//     h4 {
+//       font-weight: 600;
+//       color: var(--secondary-color);
+//       margin-top: 2rem;
+//     }
+  
+//     h5 {
+//       font-weight: 400;
+//       color: var(--gray-color);
+//       margin-top: 5px;
+//     }
+  
+//     @media screen and (max-width: 600px) {
+//       margin-top: 2rem;
+//       padding: 0;
+//     }
+//   }
+  
+//   .app__testimonial-btns {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     margin-top: 2rem;
+  
+//     div {
+//       width: 50px;
+//       height: 50px;
+//       border-radius: 50%;
+//       background-color: var(--white-color);
+  
+//       margin: 1rem;
+//       transition: all 0.3s ease-in-out;
+  
+//       svg {
+//         width: 20px;
+//         height: 20px;
+//         color: var(--secondary-color);
+//       }
+  
+//       &:hover {
+//         background-color: var(--secondary-color);
+  
+//         svg {
+//           color: var(--white-color);
+//         }
+//       }
+  
+//       @media screen and (min-width: 2000px) {
+//         width: 100px;
+//         height: 100px;
+  
+//         svg {
+//           width: 45px;
+//           height: 45px;
+//         }
+//       }
+//     }
+//   }
+  
+// //   .app__testimonial-brands {
+// //     width: 80%;
+// //     flex-wrap: wrap;
+// //     margin-top: 2rem;
+  
+// //     div {
+// //       width: 150px;
+// //       margin: 1.5rem;
+  
+// //       img {
+// //         width: 100%;
+// //         height: auto;
+// //         object-fit: cover;
+// //         filter: grayscale(1);
+// //       }
+  
+// //       &:hover {
+// //         img {
+// //           filter: grayscale(0);
+// //         }
+// //       }
+  
+// //       @media screen and (min-width: 2000px) {
+// //         width: 210px;
+// //         margin: 2rem;
+// //       }
+  
+// //       @media screen and (max-width: 450px) {
+// //         width: 120px;
+// //         margin: 1rem;
+// //       }
+// //     }
+  
+// //     @media screen and (max-width: 800px) {
+// //       width: 100%;
+// //     }
+// //   }
+
+// .container{
+//   width: 1200px;
+//   max-width: 80%;
+//   margin: 1rem auto;
+ 
+// } */
+
+.carousel-root {
+  width: 64% !important;
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+
+.carousel .slide {
+  background: #fff !important;
+  color: black;
+  height: 100%;
+}
+
+.carousel .slide img {
+  width: 139px !important;
+  border-radius: 50%;
+}
+
+.myCarousel {
+  background: #fafafa;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid #ddd;
+  height: 286px;
+}
+
+.carousel .control-dots {
+  padding-left: 5px !important;
+  outline: 0;
+  bottom: 5% !important;
+}
+
+.myCarousel h3 {
+  color: #222;
+  font-weight: 100;
+  letter-spacing: 0.2px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.myCarousel h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 500;
+  color: #787878;
+  font-size: 14px;
+}
+
+.myCarousel p {
+  font-weight: 100 !important;
+  line-height: 29px !important;
+  color: #222;
+  font-size: 15px;
+  font-family: sans-serif;
+  max-height: 67px;
+}
+
+.myCarousel p:before {
+  content: "“";
+  color: #aaa;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.myCarousel p:after {
+  content: "”";
+  color: #aaa;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 100;
+  line-height: 0;
+}
+
+.carousel .control-dots .dot {
+  box-shadow: none !important;
+  background: #454545 !important;
+  outline: 0;
+}
+
+.carousel.carousel-slider .control-arrow {
+  background: #000 !important;
+  height: 50px !important;
+  position: absolute;
+  top: 35% !important;
+}
+
+.App {
+  text-align: center;
+}
+
+@media only screen and (max-width: 934px) {
+  .carousel-root {
+    outline: 0;
+    width: 93% !important;
+    margin: auto !important;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    display: none !important;
+  }
+  .myCarousel {
+    background: #fafafa;
+    margin-top: -9%;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom: 12.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #ddd;
+    height: 269px;
+  }
+
+  .carousel .slide img {
+    width: 24% !important;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+
+}
+

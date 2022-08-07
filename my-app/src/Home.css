@@ -1,0 +1,47 @@
+.heading{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.semiheading{
+    color: #55b8d3;
+}
+.row_res{
+    /* border: 2px solid red; */
+    
+}
+@media screen  and (max-width:977px){
+    .row_res{
+    margin-top: 3rem;
+    }
+}
+@media screen  and (max-width:420px){
+    .row_res{
+        margin-top: -15rem;
+    }
+    .heading{
+        font-size: 1rem;
+    }
+    .semiheading{
+        font-size: 0.8rem;
+    }
+    .tracking-in-contract-bck{
+        color: black;
+    }
+}
+@media screen  and (max-width:380px){
+    .row_res{
+        margin-top: 3rem;
+    }
+    
+}
+@media screen  and (max-width:990px){
+    .res_img{
+        width: 30rem;
+        margin: 0 auto;
+    }
+    .res_header{
+        margin: 0 auto;
+    }
+    
+    
+}
